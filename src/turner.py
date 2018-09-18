@@ -34,8 +34,7 @@ def retract():
 print (time.strftime("%c") + ": Start Time")
 
 try:
-    while startTime < startTime + 1555200:
-
+    while True:
         retract()
         time.sleep(p)
 	extend()
